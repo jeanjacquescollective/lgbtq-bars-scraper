@@ -1,4 +1,4 @@
-fetch('../json/scrapedPages.json')
+fetch('./scrapedPages.json')
   .then((response) => response.json())
   .then((json) => createMap(json));
 
